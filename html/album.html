@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories Album</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/album.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Our Memories Album</h1>
+            <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </header>
+
+        <div class="album-grid">
+            <div class="album-item">
+                <img src="../images/IMG20240411173208.jpg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+            <div class="album-item">
+                <img src="../images/IMG20240411173200.jpg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+            <div class="album-item">
+                <img src="../images/Marian cat.jpeg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+            <div class="album-item">
+                <img src="../images/IMG20240211160046.jpg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+            <div class="album-item">
+                <img src="../images/IMG20231228234517.jpg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+            <div class="album-item">
+                <img src="../images/IMG20231228234515.jpg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+            <div class="album-item">
+                <img src="../images/received_1273259063312766.jpeg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+            <div class="album-item">
+                <img src="../images/Arthur nery concert.jpeg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+            <div class="album-item">
+                <img src="../images/received_1219137228929822.jpeg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+            <div class="album-item">
+                <img src="../images/Bibi with rocks in beach.jpeg" alt="Our memories" onclick="openFullImage(this.src)">
+            </div>
+        </div>
+    </div>
+
+    <!-- Full Image Modal -->
+    <div id="imageModal" class="modal" onclick="closeFullImage()">
+        <span class="close-btn">&times;</span>
+        <img id="fullImage" class="modal-content" alt="Full Image">
+    </div>
+
+    <script src="../js/album.js"></script>
+</body>
+</html> 
