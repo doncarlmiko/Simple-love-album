@@ -50,6 +50,16 @@ body {
     background-clip: text;
 }
 
+.header h1 .emoji {
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+    background-clip: initial;
+    color: var(--primary-color);
+    font-size: 1.2em;
+    margin-left: 0;
+}
+
 .message {
     font-size: 1.1rem;
     line-height: 1.8;
